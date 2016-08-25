@@ -1,0 +1,27 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Hong's Blog
+tagline:             Thoughts and Life
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Zhong Hong
+  url:               http://weibo.com/stwzhong
+  email:             stwzhong@gmail.com
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
